@@ -137,12 +137,10 @@ game:GetService("ReplicatedStorage").Remotes.Functions:InvokeServer(A_1)
         )
 -----MOVE 2 (star glitcher god speed)
 --X
-
-
-
-local userInputService = game:GetService("UserInputService")
-
-
+local mouse = game.Players.LocalPlayer:GetMouse()
+        mouse.KeyDown:Connect(
+            function(k)
+                if k == "z" then
 userInputService.InputBegan:Connect(function(input,gameProcessedEvent)
     local keyPressed = input.KeyCode
     
