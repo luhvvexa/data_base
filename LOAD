@@ -1025,8 +1025,3 @@ How..sad.]],
     )
             end
 )
-----another move?? NOT READY YET XDD
-local mouse = game.Players.LocalPlayer:GetMouse()
-local mouse = game.Players.LocalPlayer:GetMouse()
-                mouse.KeyDown:Connect(function(k) 
-                    if k == "-" then
